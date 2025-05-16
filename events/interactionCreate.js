@@ -170,6 +170,18 @@ module.exports = {
 
 						guild = robloxdata.guilds.find(obj => obj.guild.id == interaction.guildId);
 
+						const interactionMember = await interaction.guild.members.fetch(interaction.user.id);
+						const staffRoleIds = guild.config.staffRoles; // Array of role IDs
+
+						const hasStaffRole = interactionMember.roles.cache.some(role => staffRoleIds.includes(role.id));
+
+						if (!hasStaffRole) {
+							await interaction.reply({
+								content: "You do not have permission to use this command (Not configured staff role).",
+								ephemeral: true
+							});
+						}
+
 						// Attempt to change the user's role in the Discord server and Roblox group
 						const role = guild.config.requestRoles.find(obj => obj.roblox.name === embed.fields[4].value);
 
@@ -238,6 +250,21 @@ module.exports = {
 					await interaction.reply("There was an error while processing your rank application.");
 				}
 			} else if (interaction.customId == "reject") {
+				let robloxdata = await readFileAsync("roblox-data.json");
+				let guild = robloxdata.guilds.find(obj => obj.guild.id == interaction.guildId);
+
+				const interactionMember = await interaction.guild.members.fetch(interaction.user.id);
+				const staffRoleIds = guild.config.staffRoles; // Array of role IDs
+
+				const hasStaffRole = interactionMember.roles.cache.some(role => staffRoleIds.includes(role.id));
+
+				if (!hasStaffRole) {
+					await interaction.reply({
+						content: "You do not have permission to use this command (Not configured staff role).",
+						ephemeral: true
+					});
+				}
+				
 				let embed = interaction.message.embeds[0];
 				if (embed) {
 					let modal = new ModalBuilder()
