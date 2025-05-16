@@ -16,8 +16,8 @@ A Discord bot to seamlessly manage Roblox group rank applications, synchronize R
 
 ## Installation
 
-Invite the bot to your discord server with this link:
-https://discord.com/oauth2/authorize?client_id=1371422603331239976&scope=bot+applications.commands+identify&permissions=277293911040
+Invite the bot to your discord server with [this link](https://discord.com/oauth2/authorize?client_id=1371422603331239976&scope=bot+applications.commands+identify&permissions=277293911040):
+
 
 ---
 
@@ -56,6 +56,18 @@ This project is licensed under the MIT License.
 
 ---
 
+## Terms of Service
+
+Read the `TERMS.md` file within the repository.
+
+---
+
+## Privacy Policy
+
+Read the `PRIVACY.md` file within the repository.
+
+---
+
 ## Support
 
-For help or questions, open an issue or join our Discord server https://discord.gg/FaQmxHxPM5.
+For help or questions, open an issue or join our [Discord server](https://discord.gg/FaQmxHxPM5).
