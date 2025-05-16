@@ -23,6 +23,14 @@ Invite the bot to your discord server with [this link](https://discord.com/oauth
 
 ## Usage
 
+### Verification
+* Users verify with `/verify` before being able to use any other commands.
+* Verifying will connect your discord account with your roblox account.
+
+### Setup
+* Server Admins use `/setup` to setup the server with Ranklink.
+* Using the command will send a request to the developer (me) to review.
+
 ### Commands
 
 * `/config display` — View the current bot configuration.
@@ -32,7 +40,7 @@ Invite the bot to your discord server with [this link](https://discord.com/oauth
 * `/config log channel` — Set the channel for logging rank request activities.
 * `/config log disable` — Disable request logging.
 * `/config applications mode` — Set application mode (automatic/manual).
-* `/config applications requestchannel` — Set the channel where manual requests are sent.
+* `/config applications requestchannel` — Set the channel where manual requests are sent for review.
 
 ### Application Flow
 
