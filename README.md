@@ -33,6 +33,7 @@ Invite the bot to your discord server with [this link](https://discord.com/oauth
 
 ### Commands
 
+* `/help` - See more details and get a full list of commands.
 * `/config display` — View the current bot configuration.
 * `/config requestrole add` — Connect a Discord role to a Roblox group rank.
 * `/config requestrole remove` — Disconnect a role from rank syncing.
