@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: [Insert Date]
+Last updated: 16/05/2025
 
 Ranklink respects your privacy. This policy explains how we collect, use, and protect your data.
 
