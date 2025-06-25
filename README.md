@@ -6,7 +6,6 @@ A Discord bot to seamlessly manage Roblox group rank applications, synchronize R
 
 ## Features
 
-* **Roblox Group Rank Sync:** Automatically connect Roblox group ranks with Discord roles to assign and manage roles easily.
 * **Rank Application System:** Handle rank applications with configurable modes — automatic or manual staff approval.
 * **Role Management:** Add and remove staff roles responsible for moderating rank requests.
 * **Request Logging:** Log all rank requests and actions to a designated Discord channel for transparency.
