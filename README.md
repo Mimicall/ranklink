@@ -1,5 +1,7 @@
 # RankLink
 
+# INFORMATION: THIS BOUGHT HAS BEEN SOLD AND IS NOT MANAGED BY ME AS OF JUNE 26TH 2026
+
 A Discord bot to seamlessly manage Roblox group rank applications, synchronize Roblox group ranks with Discord roles, and streamline moderation workflows — all in one bot.
 
 ---
